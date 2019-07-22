@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "adenvt"
+  ],
+  "env": {
+    "browser": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "globals": {
+    "Vue": true,
+    "CONFIG": true,
+    "__VERSION": true
+  },
+  "rules": {
+    "semi": "off",
+    "no-extra-semi": "off"
+  }
+}
